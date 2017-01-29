@@ -2,7 +2,8 @@ public class Main
 {
     public static void main(String[] args)
     {
-        System.out.println("Hello World");
-        
+        Video video = new Video();
+        video.rename("My YouTube Video");
+        video.play();
     }
 }
